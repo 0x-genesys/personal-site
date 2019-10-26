@@ -4,13 +4,12 @@ const data = {
     value: 0,
   },
   countries: {
-    label: 'Countries visited',
-    value: 53,
-    link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
+    label: 'Cities visited',
+    value: 30,
   },
   location: {
     label: 'Current city',
-    value: 'New York, NY',
+    value: 'Bangalore, IN',
   },
 };
 

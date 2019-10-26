@@ -31,7 +31,7 @@
     "@babel/runtime": "^7.5.5",
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
-    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-regular": "^n5.0.13",
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
     "@fortawesome/react-fontawesome": "0.1.4",
     "babel-loader": "^8.0.6",

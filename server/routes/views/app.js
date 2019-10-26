@@ -13,7 +13,7 @@ import config from '../../../webpack/webpack.config';
 const env = process.env.NODE_ENV || 'development';
 
 const routes = (app) => {
-  if (env === 'development') { // eslint-disable-line eqeqeq
+  if (env === 'development' || env === 'localhost') { // eslint-disable-line eqeqeq
     const compiler = webpack(config);
 
     compiler.plugin('done', () => {
