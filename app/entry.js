@@ -8,9 +8,11 @@ import {
 import Index from './views/Index';
 import About from './views/About';
 import Projects from './views/Projects';
-import Resume from './views/Resume';
+import Experience from './views/Experience';
 import Stats from './views/Stats';
 import Contact from './views/Contact';
+import Education from './views/Education';
+import Blog from './views/Blog';
 
 import NotFound from './views/NotFound';
 
@@ -22,10 +24,12 @@ ReactDOM.render(
     <Switch>
       <Route exact path="/" component={Index} />
       <Route path="/about" component={About} />
+      <Route path="/education" component={Education} />
+      <Route path="/experience" component={Experience} />
       <Route path="/projects" component={Projects} />
       <Route path="/stats" component={Stats} />
       <Route path="/contact" component={Contact} />
-      <Route path="/resume" component={Resume} />
+      <Route path="/blog" component={Blog} />
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />
     </Switch>

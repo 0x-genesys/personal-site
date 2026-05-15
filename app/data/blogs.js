@@ -39,13 +39,13 @@ const blogs = [
   },
   {
     id: 'blockchain-verification-platform',
-    title: 'Blockchain Verification Platform',
-    subtitle: 'Building LinkedIn on Blockchain with ERC20 token integration',
+    title: 'Blockchain Platform',
+    subtitle: 'Scaling RDS Database for a Bitcoin explorter platform',
     link: '/blog/blockchain-verification-platform',
     date: 'December 2018',
     readTime: '7 min read',
     tags: ['Blockchain', 'Web3', 'Startup'],
-    description: 'At Springrole, I worked on building a blockchain verification platform that allowed professionals to verify their work history.',
+    description: 'I built a blockchain verification platform that scaled to Bitcoin transaction volume and processed millions of transactions daily.',
   },
 ];
 

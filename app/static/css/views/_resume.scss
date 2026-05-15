@@ -132,3 +132,338 @@
 		display: block;
 	}
 }
+
+// ========================================
+// Education Page Styles
+// ========================================
+
+// Page Headline
+.page-headline {
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 0 0 0.5em 0;
+  color: #1a1a2e;
+}
+
+.page-headline a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.page-headline a:hover {
+  color: #007bff;
+}
+
+// Education Section
+.education-section {
+  margin-bottom: 5em;
+}
+
+.section-heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 2.5em;
+  padding-bottom: 0.6em;
+  border-bottom: 3px solid #007bff;
+  color: #1a1a2e;
+}
+
+.degree-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2.2em 2.5em;
+  margin-bottom: 2.5em;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #007bff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.degree-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+}
+
+.degree-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+  color: #1a1a2e;
+  line-height: 1.4;
+}
+
+.school-name {
+  font-size: 1.1rem;
+  color: #007bff;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+
+.school-name a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.school-name a:hover {
+  border-bottom-color: #007bff;
+}
+
+.year {
+  font-size: 0.95rem;
+  color: #6c757d;
+  font-weight: 500;
+  margin-bottom: 0.7em;
+  background: #f0f4ff;
+  display: inline-block;
+  padding: 0.25em 0.9em;
+  border-radius: 4px;
+}
+
+.activities {
+  font-size: 0.95rem;
+  color: #495057;
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
+// Certificates Section
+.certificates-section {
+  margin-bottom: 5em;
+}
+
+.certificates-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2.5em;
+}
+
+.certificate-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.certificate-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.14);
+}
+
+.certificate-card > header {
+  padding: 1.8em 2em 1.2em;
+  flex-grow: 1;
+}
+
+.certificate-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.6em;
+  color: #1a1a2e;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.issuer {
+  font-size: 1rem;
+  color: #007bff;
+  margin-bottom: 0.4em;
+  font-weight: 600;
+}
+
+.certificate-card .date {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 0.7em;
+  background: #f0f4ff;
+  display: inline-block;
+  padding: 0.2em 0.7em;
+  border-radius: 4px;
+}
+
+.credential-id {
+  font-size: 0.88rem;
+  color: #495057;
+  font-family: 'Courier New', monospace;
+  background: #f8f9fa;
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  margin-top: 0.4em;
+}
+
+.certificate-card .description {
+  font-size: 0.95rem;
+  color: #495057;
+  line-height: 1.65;
+  margin-bottom: 1em;
+  padding: 1em;
+  background: #fafbfc;
+  border-radius: 8px;
+  border-left: 3px solid #e9ecef;
+}
+
+.skills-container {
+  font-size: 0.88rem;
+  color: #495057;
+  font-family: 'Courier New', monospace;
+  background: #f8f9fa;
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  margin-top: 0.4em;
+  border: 1px solid #e9ecef;
+}
+
+// Thumbnail Styles
+.thumbnail-wrapper {
+  padding: 0 2em 1.8em;
+}
+
+.certificate-thumbnail {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-thumbnail:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.3);
+}
+
+.certificate-thumbnail:focus {
+  outline: 3px solid #007bff;
+  outline-offset: 2px;
+}
+
+// Image Modal
+.image-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 2em;
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-image {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  animation: zoomIn 0.3s ease;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: -45px;
+  right: 0;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding: 0.2em 0.5em;
+  line-height: 1;
+  transition: color 0.2s ease, transform 0.2s ease;
+  opacity: 0.8;
+}
+
+.modal-close:hover {
+  color: #007bff;
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.modal-close:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+// Responsive adjustments
+@include breakpoint(small) {
+  .page-headline {
+    font-size: 2rem;
+  }
+
+  .section-heading {
+    font-size: 1.3rem;
+  }
+
+  .degree-card {
+    padding: 1.5em;
+  }
+
+  .certificates-container {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
+
+  .certificate-thumbnail {
+    height: 150px;
+  }
+
+  .modal-close {
+    top: -40px;
+    right: -5px;
+    font-size: 2rem;
+  }
+
+  .image-modal-overlay {
+    padding: 1em;
+  }
+}
+
+@include breakpoint(medium) {
+  .page-headline {
+    font-size: 2.4rem;
+  }
+}
