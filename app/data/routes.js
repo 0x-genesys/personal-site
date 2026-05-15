@@ -9,8 +9,12 @@ const data = [
     label: 'About',
   },
   {
-    path: '/resume',
-    label: 'Resume',
+    path: '/education',
+    label: 'Education',
+  },
+  {
+    path: '/experience',
+    label: 'Experience',
   },
   {
     path: '/projects',
@@ -23,6 +27,10 @@ const data = [
   {
     path: '/contact',
     label: 'Contact',
+  },
+  {
+    path: '/blog',
+    label: 'Blog',
   },
 ];
 

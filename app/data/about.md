@@ -1,63 +1,59 @@
-
 #### Intro
-I am the Technical Leader at [Springrole](https://Springrole.com) where I work on engineering infrastructure and build tools to solve hiring process for big businesses. My primary job functions are to build fast, durable and scalable products. I work closely with business and product teams to come up with reliable solutions.
-<br>
-I am also available to consult on interesting project. I am particularly interested fintech, blockchain, services and SAAS. I enjoy advising companies and may even be available for pro-bono work depending on the time commitment and the project. If you would like to arrange a meeting, I am based in Bangalore but travel to the Gurgaon frequently.
+I’m an aspiring AI researcher, a lifelong math fan, and a complete neural networks fanboy at heart. Professionally, I am an AI Engineer with a deep foundation in systems architecture. My background is rooted in building highly scalable, fault-tolerant backend infrastructure for companies like Walmart and Urban Company. Today, I leverage that distributed systems experience to bridge the gap between theoretical machine learning and production-ready AI. I strongly believe that the true power of AI is unlocked only when complex models are supported by robust, scalable engineering.
+
+I am endlessly curious and **open to collaborating on any interesting AI project**—whether that involves LLM orchestration, autonomous multi-agent systems, multimodal healthcare models, or quantitative trading. I enjoy advising teams on how to architect their AI pipelines and am always open to consulting or pro-bono work for the right technical challenge. If you are building something exciting, I’m based in Bangalore and would love to connect.
 <br><br>
+
 #### Currently
-At Springrole I have learned how to build teams and manage people, lead scalable products and solution. Come up with backbone architecture/infrastructure on AWS and Google cloud. I've also learned how to build and maintain large web applications (see [Springrole.com](https://Springrole.com), [Springverify.com](https://Springverify.com)).
+My current passion lies in decoupling model intelligence from deterministic execution—figuring out how to make AI agents reason reliably in the real world. To do this, I rely heavily on building Model Context Protocol (MCP) servers, which perfectly combine my backend microservices experience with modern AI agent workflows.
+
+I am actively developing and managing several advanced architectures:
+*   **Project Apex:** An institutional-grade algorithmic trading system utilizing LSTMs and Recurrent Neural Networks to capture momentum breakouts in Indian equities.
+*   **Multimodal Medical Assistant:** A fully local, HIPAA-compliant AI integrating BioBERT and MedCLIP with ultra-fast High-Performance RAG (<10ms queries).
+*   **Project Neo:** A custom-built 256M-parameter Transformer model trained entirely on Apple Silicon, utilizing advanced LoRA fine-tuning to enforce strict Chain-of-Thought (CoT) reasoning.
 <br><br>
+
 #### Some history
 
-- My dad sold his Golf kit back in 1998 to buy a computer for me (Win 98 OS), I enjoyed playing on it. Alladin and Robocop were my favorites. Till date I am not sure if Alladin had a final chapter.
+- My dad sold his Golf kit back in 1998 to buy a computer for me (Win 98 OS). I spent hours playing on it—Aladdin and Robocop were my favorites. To this day, I am not sure if Aladdin actually had a final chapter.
+- I grew up fascinated with floppy disks and CD-ROMs, spending my childhood reverse-engineering my toys.
+- In school, I took a great interest in computers starting in 9th grade. I learned the basics of C++ and Java early on and got completely addicted to solving computational puzzles. 
+- At college, I attended countless computer workshops and started building and selling Android apps in my final year, completely supporting myself. I still remember the feeling of getting my first Amazon cheque from the App Store.
+- Soon after college, I spent some time learning networking before shifting to Google as a vendor, where I onboarded large hotel chains onto the Google Hotel Platform, balancing technical implementation with business strategy.
+- From there, I joined a fintech startup backed by Naspers (PayU), building their Merchant App from scratch as an early hire.
+- In 2015, I joined **Urban Company** as an early hire. I spent years building highly scalable matchmaking algorithms, event-driven architectures (Kafka Streams), and backend SEO systems that skyrocketed organic traffic for the now-unicorn startup.
+- In 2018, I co-founded my own blockchain startup, **Blockwala**, building software and hardware wallets. When regulatory changes in India forced us to pivot, I took over as Tech Lead at **Springworks**, optimizing high-throughput Node.js microservices and Ethereum-based decentralized networks.
+- In 2021, I joined **Walmart Global Tech India**, eventually becoming a Staff Software Engineer. I designed, architected, and coded *Sidekick*—a massive internal automation effort—and built an ML-driven task generation platform that helped generate an estimated $400M in revenue by optimizing associate workflows.
+- Today, my focus is entirely on the AI application and infrastructure layer—ensuring that foundational models don't just work in Jupyter notebooks, but scale flawlessly in real-world, high-traffic environments.
 
-- I remember being fascinated with floppy disks and CD Roms. I engineered and reverse-engineered toys from child hood.
-
-- In school I took great interest in computers, from class 9th. I had mastered C++ and Java basics in 9th Grade. I got addicted to solving computer problems. 
-
-- At college I took keen interest in computer gaming and also attended many computer workshops. I started building and selling Android apps in my final year, completely supporting myself from them. I had many customers , and interacted with some over emails. I still remember getting my first Amazon cheque from Amazon's App Store. 
-
-- Soon after college, along with my freelance work, I pursued CCNA and networking for some time. Then I shifted to Google as a vendor where I on boarded large hotel chains (like Hilton) on Google Hotel Platform. My role was that of technical and business one.
-
-- From there I shifted to a fintech startup backed by Naspers (PayUMoney). At PayUMoney I built their Merchant App from scratch. I was an early hire there and worked on Payments SDK as well. 
-
-- In 2015 I joined [Urbanclap](https://www.urbanclap.com/) as an early hire. I worked on Android apps (Customer and Merchant). I also worked on building chat in their apps (backend and frontend), using XMPP and ejabberd. 
-
-- In 2017, I shifted to backend role in Urbanclap. I led their SEO efforts and also worked on the match making algorithm. Organic traffic charts shooted the sky and the entire team was praised by founders.
-
-- In 2018, I started my blockchain startup. I had found interest in Blockchain and built software and hardware wallets. Also worked on ERC20 projects for clients and raised money through services. We were team of 8 strong (including IIT interns). Unfortunately, due to Indian regulations came later in the year against blockchain, and we had to close the startup.
-
-- I joined Springrole, Bangalore after shutting my startup, as technical lead. Currently I lead Springrole verticals , delivering tech-product fit results.
-
-- I also have interests in cosomolgy , theoretical physics and maths. 
-
-You can ask me in person for other stories that I'm afraid to share with the internet.
+You can ask me in person for the other stories that I'm afraid to share with the internet.
 <br><br>
+
 #### I like
-- Chess
-- Swimming
-- Cosmos
-- Winters
-- Coffee
+- Exploring new neural network architectures
+- The elegance of a well-designed backend system
+- Cold Brew Coffee
+- Premium Sneakers & Leica Photography
+- Chess & Swimming
+- Cosmos & Winters
+- Spending time with my five-year-old Pitbull
 
 #### Travel / Geography
 
-- I am from originally from Delhi. I have since lived in Belgaum, Ooty, Goa, Ladakh, Kupwara, Bareilly, Chakrata, Bhopal , Gurgaon and Dehradun
-
-- I've been to ~ 30 cities in India, some of which I have forgotten, and many of which I would like to revisit.
-
-- My father is a retired Army officer with Yudh Seva Medal and Veer Seva Medal. He served the president (Gyani Gian Singh). He has also served UN and fought 3 wars for India.
-
-- I reside in Bangalore currently as I find the city most peaceful (except traffic which I tend to avoid).
+- I am originally from Delhi and Dehradun. I have since lived in Belgaum, Ooty, Goa, Ladakh, Kupwara, Bareilly, Chakrata, Bhopal, and Gurugram.
+- I've been to ~30 cities in India, and travel frequently to beach destinations (Phuket, Ko Samui, Bali) and mountainous regions (Manali, Sissu), preferring boutique villas and quiet farmstays.
+- My father is a retired Army officer with a Yudh Seva Medal and Veer Seva Medal. He served the president (Gyani Gian Singh), served the UN, and fought 3 wars for India.
+- I currently reside in the Sarjapur Road area of Bangalore, as I find the city peaceful (except for the traffic, which I try my best to avoid).
 
 #### Fun facts
 
-- I have read Stephen Hawkings paper
-- I follow Osho and Buddha
-- I believe in mind-body dualism
-- Universe might be an automation
+- I have an INFJ personality style.
+- I love reading Stephen Hawking's papers.
+- I draw a lot of inspiration from Osho and Buddha.
+- I believe in mind-body dualism.
+- I often wonder if the Universe might simply be a highly complex, beautifully designed automation.
 
 #### I dream of
-- building new solutions for people, help people
-- doing better.
-- no one checking my commit history for early drafts of this file. ;)
+- Building autonomous systems that genuinely help people and scale human potential.
+- Achieving the perfect Chain-of-Thought alignment in my models.
+- No one checking my commit history for the early drafts of this file. ;)
